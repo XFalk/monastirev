@@ -7,16 +7,16 @@ const catalog = document.querySelector(`#catalog`);
 const catalogMenuContainer = document.querySelector(`#catalog_menu_container`);
 city.addEventListener(`click`, () => modal.style.display = `block`);
 cls.addEventListener(`click`, () => modal.style.display = `none`); //закрываем модальное окно при нажатии на x
-window.addEventListener(`click`, function(e) { //закрываем модальное окно при клике на пустое место вне модального окна
+window.addEventListener(`click`, function (e) { //закрываем модальное окно при клике на пустое место вне модального окна
     if (e.target == modal) {
         modal.style.display = "none";
     }
 });
-cities.forEach(cit => cit.addEventListener(`click`, function(e) {
+cities.forEach(cit => cit.addEventListener(`click`, function (e) {
     currentCity.textContent = e.target.textContent;
     modal.style.display = "none";
 }));
-catalog.addEventListener(`click`, function() {
+catalog.addEventListener(`click`, function () {
     if (catalogMenuContainer.classList.contains('visible_menu')) {
         catalogMenuContainer.classList.remove(`visible_menu`);
     } else {

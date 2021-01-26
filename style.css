@@ -355,6 +355,7 @@ header {
         transform: translate(1px, 0px);
         opacity: 1;
     }
+
     100% {
         transform: translate(120px, 0px);
         opacity: 0;
@@ -391,12 +392,15 @@ header {
     #logo {
         margin-left: 5%;
     }
+
     #telephone {
         margin-right: 4%;
     }
+
     #catalog {
         margin-left: 6%;
     }
+
     #cart {
         margin-right: 5%;
     }
@@ -406,12 +410,15 @@ header {
     #logo {
         margin-left: 0%;
     }
+
     #telephone {
         margin-right: 0%;
     }
+
     #catalog {
         margin-left: 0%;
     }
+
     #cart {
         margin-right: 0%;
     }
@@ -481,6 +488,7 @@ header {
         top: -300px;
         opacity: 0
     }
+
     to {
         top: 0;
         opacity: 1
@@ -492,6 +500,7 @@ header {
         top: -300px;
         opacity: 0
     }
+
     to {
         top: 0;
         opacity: 1
@@ -519,7 +528,7 @@ header {
     padding-left: 32px;
 }
 
-.modal-container>* {
+.modal-container > * {
     margin: 0;
 }
 
@@ -642,7 +651,7 @@ header {
     padding: 0;
 }
 
-#catalog_menu_main_li>li {
+#catalog_menu_main_li > li {
     font-size: 20px;
     line-height: 16px;
     /* identical to box height, or 80% */
@@ -655,11 +664,11 @@ header {
     margin: 24px 0 24px 24px;
 }
 
-#catalog_menu_main_li>li:hover {
+#catalog_menu_main_li > li:hover {
     font-weight: bold;
 }
 
-#catalog_menu_main_li>li:hover .li_text {
+#catalog_menu_main_li > li:hover .li_text {
     text-decoration: underline #FFCC00 2px;
 }
 
@@ -707,7 +716,7 @@ ul {
     list-style: none;
 }
 
-#pharmacy:hover+#catalog_menu_pharmacy {
+#pharmacy:hover + #catalog_menu_pharmacy {
     transform: scaleX(1);
 }
 
@@ -715,7 +724,7 @@ ul {
     transform: scaleX(1);
 }
 
-#cosmetics:hover+#catalog_menu_cosmetics {
+#cosmetics:hover + #catalog_menu_cosmetics {
     transform: scaleX(1);
 }
 
@@ -723,7 +732,7 @@ ul {
     transform: scaleX(1);
 }
 
-#healthyeating:hover+#catalog_menu_healthyeating {
+#healthyeating:hover + #catalog_menu_healthyeating {
     transform: scaleX(1);
 }
 
